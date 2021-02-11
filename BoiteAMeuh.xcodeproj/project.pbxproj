@@ -11,6 +11,14 @@
 		371ED8E325866E5200D9CF96 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371ED8E225866E5200D9CF96 /* ContentView.swift */; };
 		371ED8E525866E5300D9CF96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 371ED8E425866E5300D9CF96 /* Assets.xcassets */; };
 		371ED8E825866E5300D9CF96 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 371ED8E725866E5300D9CF96 /* Preview Assets.xcassets */; };
+		37618C5B258BA18F00AD2C0D /* JouerSon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37618C5A258BA18F00AD2C0D /* JouerSon.swift */; };
+		376B28282586A5E500F55E2A /* cow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 376B28272586A5E500F55E2A /* cow.mp3 */; };
+		379A0470259354AE00F19007 /* ControleurSafari.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A046F259354AE00F19007 /* ControleurSafari.swift */; };
+		37F66FA42586711500FA89FF /* ContenuFenetre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F66FA32586711500FA89FF /* ContenuFenetre.swift */; };
+		37F66FA72586725A00FA89FF /* FenetreMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F66FA62586725A00FA89FF /* FenetreMenu.swift */; };
+		37F66FAB2586731700FA89FF /* BoutonFermeture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F66FAA2586731700FA89FF /* BoutonFermeture.swift */; };
+		37F66FAE258678B800FA89FF /* BoiteMeuh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F66FAD258678B800FA89FF /* BoiteMeuh.swift */; };
+		37F66FB625867B1500FA89FF /* Ressources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F66FB525867B1500FA89FF /* Ressources.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +28,14 @@
 		371ED8E425866E5300D9CF96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		371ED8E725866E5300D9CF96 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		371ED8E925866E5300D9CF96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37618C5A258BA18F00AD2C0D /* JouerSon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JouerSon.swift; sourceTree = "<group>"; };
+		376B28272586A5E500F55E2A /* cow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cow.mp3; sourceTree = "<group>"; };
+		379A046F259354AE00F19007 /* ControleurSafari.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControleurSafari.swift; sourceTree = "<group>"; };
+		37F66FA32586711500FA89FF /* ContenuFenetre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContenuFenetre.swift; sourceTree = "<group>"; };
+		37F66FA62586725A00FA89FF /* FenetreMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FenetreMenu.swift; sourceTree = "<group>"; };
+		37F66FAA2586731700FA89FF /* BoutonFermeture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoutonFermeture.swift; sourceTree = "<group>"; };
+		37F66FAD258678B800FA89FF /* BoiteMeuh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoiteMeuh.swift; sourceTree = "<group>"; };
+		37F66FB525867B1500FA89FF /* Ressources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ressources.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +68,10 @@
 		371ED8DF25866E5200D9CF96 /* BoiteAMeuh */ = {
 			isa = PBXGroup;
 			children = (
-				371ED8E025866E5200D9CF96 /* BoiteAMeuhApp.swift */,
+				379A046E2593549100F19007 /* Modele */,
+				376B28262586A5CE00F55E2A /* Son */,
+				37F66FB0258679D400FA89FF /* Constante */,
+				37F66FA12586706000FA89FF /* Vues */,
 				371ED8E225866E5200D9CF96 /* ContentView.swift */,
 				371ED8E425866E5300D9CF96 /* Assets.xcassets */,
 				371ED8E925866E5300D9CF96 /* Info.plist */,
@@ -67,6 +86,43 @@
 				371ED8E725866E5300D9CF96 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		376B28262586A5CE00F55E2A /* Son */ = {
+			isa = PBXGroup;
+			children = (
+				376B28272586A5E500F55E2A /* cow.mp3 */,
+				37618C5A258BA18F00AD2C0D /* JouerSon.swift */,
+			);
+			path = Son;
+			sourceTree = "<group>";
+		};
+		379A046E2593549100F19007 /* Modele */ = {
+			isa = PBXGroup;
+			children = (
+				379A046F259354AE00F19007 /* ControleurSafari.swift */,
+			);
+			path = Modele;
+			sourceTree = "<group>";
+		};
+		37F66FA12586706000FA89FF /* Vues */ = {
+			isa = PBXGroup;
+			children = (
+				371ED8E025866E5200D9CF96 /* BoiteAMeuhApp.swift */,
+				37F66FA32586711500FA89FF /* ContenuFenetre.swift */,
+				37F66FA62586725A00FA89FF /* FenetreMenu.swift */,
+				37F66FAA2586731700FA89FF /* BoutonFermeture.swift */,
+				37F66FAD258678B800FA89FF /* BoiteMeuh.swift */,
+			);
+			path = Vues;
+			sourceTree = "<group>";
+		};
+		37F66FB0258679D400FA89FF /* Constante */ = {
+			isa = PBXGroup;
+			children = (
+				37F66FB525867B1500FA89FF /* Ressources.swift */,
+			);
+			path = Constante;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +182,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				376B28282586A5E500F55E2A /* cow.mp3 in Resources */,
 				371ED8E825866E5300D9CF96 /* Preview Assets.xcassets in Resources */,
 				371ED8E525866E5300D9CF96 /* Assets.xcassets in Resources */,
 			);
@@ -138,7 +195,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				379A0470259354AE00F19007 /* ControleurSafari.swift in Sources */,
 				371ED8E325866E5200D9CF96 /* ContentView.swift in Sources */,
+				37F66FB625867B1500FA89FF /* Ressources.swift in Sources */,
+				37F66FAB2586731700FA89FF /* BoutonFermeture.swift in Sources */,
+				37F66FAE258678B800FA89FF /* BoiteMeuh.swift in Sources */,
+				37F66FA42586711500FA89FF /* ContenuFenetre.swift in Sources */,
+				37F66FA72586725A00FA89FF /* FenetreMenu.swift in Sources */,
+				37618C5B258BA18F00AD2C0D /* JouerSon.swift in Sources */,
 				371ED8E125866E5200D9CF96 /* BoiteAMeuhApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
