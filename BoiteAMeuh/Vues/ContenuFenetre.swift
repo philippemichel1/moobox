@@ -8,12 +8,12 @@
 import SwiftUI
 
 struct ContenuFenetre: View {
-    var monTexte:String
+    //var monTexte:String
     var couleurTexte:Color
     var largeurTexte:CGFloat
     var hauteurTexte:CGFloat
     var body: some View {
-        Text(monTexte)
+        Text("instruction")
             .foregroundColor(couleurTexte)
             .multilineTextAlignment(.leading)
             .frame(width: largeurTexte, height: hauteurTexte)
@@ -22,6 +22,6 @@ struct ContenuFenetre: View {
 
 struct ContenuFenetre_Previews: PreviewProvider {
     static var previews: some View {
-        ContenuFenetre(monTexte: "Mes Textes ", couleurTexte: .black, largeurTexte: 100, hauteurTexte: 100)
+        ContenuFenetre (couleurTexte: .black, largeurTexte: 100, hauteurTexte: 100)
     }
 }

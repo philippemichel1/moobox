@@ -27,13 +27,13 @@ struct ContentView: View {
                                     Button(action: {
                                         self.montrerModeEmplois.toggle()
                                     }, label: {
-                                        Text("Mode emploi")
+                                        Text("buttoninstruction")
                                     })
                                     Spacer(minLength: 40)
                                     Button(action: {
                                         self.montrerFenetreAPropos.toggle()
                                     }, label: {
-                                        Text("A propos")
+                                        Text("aboutus")
                                     })
                                 }
                                 
@@ -45,7 +45,7 @@ struct ContentView: View {
                     ZStack(alignment: .center) {
                         FenetreMenu(largeurFenetre: 372, hauteurFenetre: 250)
                         VStack {
-                            ContenuFenetre(monTexte: "Pour pouvoir declancher le bruit de la boite à meuh, vous devez appuyer sur l'image de la vache.", couleurTexte: .black, largeurTexte: 330, hauteurTexte: 140)
+                            ContenuFenetre(couleurTexte: .black, largeurTexte: 330, hauteurTexte: 140)
                                 .padding()
                             BoutonFermeture(fermetureFenetre: $montrerModeEmplois, couleurFond: .white, couleurTexte: .red)
                         }

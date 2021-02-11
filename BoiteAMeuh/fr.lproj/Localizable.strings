@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  BoiteAMeuh
+
+  Created by Philippe MICHEL on 11/02/2021.
+  
+*/
+"instruction" = "Pour déclancher l'animation merci de secouer votre Iphone.";
+"aboutus" = "A propos";
+"close" = "Fermer";
+"title" = "Boite à meuh";
+"buttoninstruction" = "Mode 'emploi";
+
+

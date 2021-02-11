@@ -13,7 +13,7 @@ struct BoiteMeuh: View {
     var body: some View {
         
         VStack {
-            Text("La Boite à meuh")
+            Text("title")
                 .foregroundColor(.white)
                 .bold()
                 .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)

@@ -15,7 +15,7 @@ struct BoutonFermeture: View {
         Button(action: {
             self.fermetureFenetre.toggle()
         }, label: {
-            Text("Fermer")
+            Text("close")
                 .padding()
                 .background(couleurFond)
                 .foregroundColor(couleurTexte)

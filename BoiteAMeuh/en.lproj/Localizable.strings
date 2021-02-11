@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  BoiteAMeuh
+
+  Created by Philippe MICHEL on 11/02/2021.
+  
+*/
+"instruction" = "to be able to trigger the noise of the moo box, please shake your phone.";
+"aboutus" = "About us";
+"close" = "Close";
+"title" = "Moo Box";
+"buttoninstruction" = "Instruction";
+
+

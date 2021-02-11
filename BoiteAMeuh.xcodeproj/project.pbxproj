@@ -11,6 +11,7 @@
 		371ED8E325866E5200D9CF96 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371ED8E225866E5200D9CF96 /* ContentView.swift */; };
 		371ED8E525866E5300D9CF96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 371ED8E425866E5300D9CF96 /* Assets.xcassets */; };
 		371ED8E825866E5300D9CF96 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 371ED8E725866E5300D9CF96 /* Preview Assets.xcassets */; };
+		372A3E6525D5957700343B23 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 372A3E6725D5957700343B23 /* Localizable.strings */; };
 		37618C5B258BA18F00AD2C0D /* JouerSon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37618C5A258BA18F00AD2C0D /* JouerSon.swift */; };
 		376B28282586A5E500F55E2A /* cow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 376B28272586A5E500F55E2A /* cow.mp3 */; };
 		379A0470259354AE00F19007 /* ControleurSafari.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A046F259354AE00F19007 /* ControleurSafari.swift */; };
@@ -28,6 +29,8 @@
 		371ED8E425866E5300D9CF96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		371ED8E725866E5300D9CF96 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		371ED8E925866E5300D9CF96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		372A3E6625D5957700343B23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		372A3E6925D5957D00343B23 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		37618C5A258BA18F00AD2C0D /* JouerSon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JouerSon.swift; sourceTree = "<group>"; };
 		376B28272586A5E500F55E2A /* cow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cow.mp3; sourceTree = "<group>"; };
 		379A046F259354AE00F19007 /* ControleurSafari.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControleurSafari.swift; sourceTree = "<group>"; };
@@ -73,8 +76,10 @@
 				37F66FB0258679D400FA89FF /* Constante */,
 				37F66FA12586706000FA89FF /* Vues */,
 				371ED8E225866E5200D9CF96 /* ContentView.swift */,
+				379A046F259354AE00F19007 /* ControleurSafari.swift */,
 				371ED8E425866E5300D9CF96 /* Assets.xcassets */,
 				371ED8E925866E5300D9CF96 /* Info.plist */,
+				372A3E6725D5957700343B23 /* Localizable.strings */,
 				371ED8E625866E5300D9CF96 /* Preview Content */,
 			);
 			path = BoiteAMeuh;
@@ -100,7 +105,6 @@
 		379A046E2593549100F19007 /* Modele */ = {
 			isa = PBXGroup;
 			children = (
-				379A046F259354AE00F19007 /* ControleurSafari.swift */,
 			);
 			path = Modele;
 			sourceTree = "<group>";
@@ -166,6 +170,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = 371ED8D425866E5200D9CF96;
 			productRefGroup = 371ED8DE25866E5200D9CF96 /* Products */;
@@ -183,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				376B28282586A5E500F55E2A /* cow.mp3 in Resources */,
+				372A3E6525D5957700343B23 /* Localizable.strings in Resources */,
 				371ED8E825866E5300D9CF96 /* Preview Assets.xcassets in Resources */,
 				371ED8E525866E5300D9CF96 /* Assets.xcassets in Resources */,
 			);
@@ -208,6 +214,18 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		372A3E6725D5957700343B23 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				372A3E6625D5957700343B23 /* en */,
+				372A3E6925D5957D00343B23 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		371ED8EA25866E5300D9CF96 /* Debug */ = {
