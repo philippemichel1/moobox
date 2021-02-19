@@ -17,21 +17,23 @@ struct BoiteMeuh: View {
                 .foregroundColor(.white)
                 .bold()
                 .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                //Appel de la fontion secousse
                 .onShake {
-                    self.basculeAnim.toggle()
+                    withAnimation {
+                        self.basculeAnim.toggle()
+                    }
                     JouerSon(nomDuSon: "cow", typeSon: "mp3")
                 }
             
                 Image(Ressources.images.meuh.rawValue)
                     .resizable()
+                    // si boulean est vrai on bascule l'image à 180° sinon basculement vers 0°
                     .rotationEffect(.degrees(basculeAnim ? 180 : 0))
                     .animation(Animation.easeIn(duration: 2).delay(0.5))
                     .aspectRatio(contentMode: .fit)
-                    .frame(width: 220, height: 330)
+                   .frame(width: 220, height: 330)
         }
-        //.background(Color.black)
     }
-    
 }
 
 //----------------------------------------------------//
