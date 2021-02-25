@@ -25,6 +25,7 @@ struct ContentView: View {
                             ZStack {
                                 HStack {
                                     Button(action: {
+                                        //passe la variable à vrai ou à faux
                                         self.montrerModeEmplois.toggle()
                                     }, label: {
                                         Text("buttoninstruction")
