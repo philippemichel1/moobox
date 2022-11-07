@@ -14,6 +14,7 @@ struct ContentView: View {
     @State var executeAnimation :Bool = false
     @State var montrerSafari:Bool = false
     var urlString = "https://www.titastus.com"
+    let ecran = UIScreen.main.bounds
     var body: some View {
         NavigationView {
             ZStack {
@@ -78,12 +79,14 @@ struct ContentView: View {
                     }
                 }
             }
-            .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, minHeight: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxHeight: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-            .edgesIgnoringSafeArea(.top)
+            .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, minHeight: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxHeight: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
+            .edgesIgnoringSafeArea(.all)
             .background(Color.black)
             
         }
+       
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {

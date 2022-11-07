@@ -32,7 +32,9 @@ struct BoiteMeuh: View {
                     .animation(Animation.easeIn(duration: 2).delay(0.5))
                     .aspectRatio(contentMode: .fit)
                    .frame(width: 220, height: 330)
+                    
         }
+        
     }
 }
 
