@@ -29,7 +29,7 @@ struct BoiteMeuh: View {
                     .resizable()
                     // si boulean est vrai on bascule l'image à 180° sinon basculement vers 0°
                     .rotationEffect(.degrees(basculeAnim ? 180 : 0))
-                    .animation(Animation.easeIn(duration: 2).delay(0.5))
+                    .animation(Animation.easeIn(duration: 2).delay(0.5),value:basculeAnim)
                     .aspectRatio(contentMode: .fit)
                    .frame(width: 220, height: 330)
                     
